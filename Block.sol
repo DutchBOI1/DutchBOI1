@@ -6,6 +6,7 @@ contract ConditionalTx {
     uint256 public targetBlock;
     address public destination;
     uint256 public amountToSend;
+    uint256 public amountToReceive;
 
     event TransferSent(address indexed _from, address indexed _to, uint256 _amount);
 
