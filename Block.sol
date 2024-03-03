@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 contract ConditionalTx {
+    address public address1;
     address public owner;
     uint256 public targetBlock;
     address public destination;
