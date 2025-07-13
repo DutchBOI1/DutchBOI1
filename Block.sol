@@ -8,6 +8,7 @@ contract ConditionalTx {
     address public destination;
     uint256 public amountToSend;
     uint256 public amountToReceive;
+    uint256 public amountToTakeItInTheA;
 
     event TransferSent(address indexed _from, address indexed _to, uint256 _amount);
 
